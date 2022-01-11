@@ -171,8 +171,12 @@ p {
 	flex-direction: column;
 }
 
-.content-box1 h1, p {
+.content-box1 h1 {
 	padding: 15px 0 0 15px;
+}
+
+.content-box1 p {
+	padding: 0 0 0 15px;
 }
 .content-box1 {
 	display: flex;
