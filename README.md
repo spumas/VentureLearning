@@ -30,7 +30,7 @@ github.com/spumas
 
 ## License
 
-There is no license associated with this project in its current early devleopment stage
+MIT License attached in the LICENSE.md
 
 ## Acknowledgments
 
