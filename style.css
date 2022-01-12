@@ -49,29 +49,35 @@ table {
 :root {
     --primary-color: #0484FF;
     --secondary-color: #E8EDFF;
-	--background-color: white ;
-	--font-color: black;
+	--background-color: white;
+    --font-color: black;
 }
 
 body {
-	background-color: var(--background-color);
+	background-color: white;
 	background: url("img/background.svg");
 	background-repeat: no-repeat;
 	background-position-x: center;
-	background-size: 900px;
+	background-size: 1200px;
+	overflow: hidden;
+}
+
+img {
+	height: 100px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding-right: 25px;
+	padding-top: 25px;
 }
 
 .background-layer {
-	height: 100vh;
-	margin: 0 auto;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	height: 100vh;
 	max-width: 1200px;
-}
-
-header {
-	background-color: grey;
+	margin: 0 auto;
+	padding: 0 25px;
 }
 
 h1 {
@@ -85,9 +91,5 @@ h2 {
 	color: black;
 	font-family: 'Roboto';
 	font-size: 18px;
-	font-weight: 500;
-}
-
-img {
-	height: 100px;
+	font-weight: 600;
 }
