@@ -47,10 +47,10 @@ table {
 /* CSS RESET END */
 
 :root {
-        --primary-color: #0484FF;
-        --secondary-color: #E8EDFF;
-        --background-color: white ;
-        --font-color: black;
+    --primary-color: #0484FF;
+    --secondary-color: #E8EDFF;
+	--background-color: white ;
+	--font-color: black;
 }
 
 body {
@@ -70,6 +70,9 @@ body {
 	max-width: 1200px;
 }
 
+header {
+	background-color: grey;
+}
 
 h1 {
 	color: var(--primary-color);
@@ -87,9 +90,4 @@ h2 {
 
 img {
 	height: 100px;
-}
-
-h1, h2 {
-	display: flex;
-	text-shadow: 150px 150px white;
 }
