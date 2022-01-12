@@ -57,8 +57,10 @@ body {
 	background-color: white;
 	background: url("img/background.svg");
 	background-repeat: no-repeat;
+	background-blend-mode: saturation;
 	background-position-x: center;
-	background-size: 1200px;
+	background-position-y: 300px;
+	background-size: 900px;
 	overflow: hidden;
 }
 
