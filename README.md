@@ -30,7 +30,7 @@ github.com/spumas
 
 ## License
 
-MIT License attached in the LICENSE.md
+Apache 2.0 License attached in the LICENSE.md
 
 ## Acknowledgments
 
