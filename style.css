@@ -91,7 +91,7 @@ body {
 
 h1 {
 	color: var(--primary-color);
-	font-family: 'Roboto Slab';
+	font-family: 'Roboto';
 	font-weight: 600;
 	font-size: 29px;
 }
