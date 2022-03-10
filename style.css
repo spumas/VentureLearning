@@ -47,51 +47,58 @@ table {
 /* CSS RESET END */
 
 :root {
-    --primary-color: #0484FF;
-    --secondary-color: #E8EDFF;
-	--background-color: white;
-    --font-color: black;
+    --primary-color: #fcfcfc;
+    --secondary-color: black;
+	--background-color: black;
+    --font-color: rgb(255, 255, 255);
 }
 
 body {
-	background-color: white;
-	background: url("img/background.svg");
+	background-color: var(--background-color);
+	background: url("img/wickedbackground.svg");
 	background-repeat: no-repeat;
-	background-blend-mode: saturation;
-	background-position-x: center;
-	background-position-y: 300px;
-	background-size: 900px;
+	background-position: bottom;
+	background-size: cover;
 	overflow: hidden;
 }
 
-img {
-	height: 100px;
+.icon {
+	height: 60px;
 	position: fixed;
 	right: 0;
 	top: 0;
-	padding-right: 25px;
-	padding-top: 25px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+.name {
+	height: 35px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding-left: 45px;
+	padding-top: 50px;
 }
 
 .background-layer {
 	display: flex;
 	align-items: center;
 	height: 100vh;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 25px;
+	max-width: 50%;
+	margin: auto auto;
+	padding: 0 50px;
 }
 
 h1 {
 	color: var(--primary-color);
 	font-family: 'Roboto Slab';
-	font-weight: 900;
+	font-weight: 600;
 	font-size: 29px;
 }
 
 h2 {
-	color: black;
+	color: var(--font-color);
 	font-family: 'Roboto';
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 400;
 }
