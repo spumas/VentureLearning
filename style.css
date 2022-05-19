@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -47,7 +47,7 @@ table {
 /* CSS RESET END */
 
 :root {
-    --primary-color: #fcfcfc;
+    --primary-color: #8ac3ff;
     --secondary-color: black;
 	--background-color: black;
     --font-color: rgb(255, 255, 255);
@@ -93,7 +93,7 @@ h1 {
 	color: var(--primary-color);
 	font-family: 'Roboto';
 	font-weight: 600;
-	font-size: 29px;
+	font-size: 55px;
 }
 
 h2 {
